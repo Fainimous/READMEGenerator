@@ -25,7 +25,7 @@
 
   2) run the generator using the command "node index.js" from the terminal
 
-  [Here is a link for a walkthrough video on how to install and use the app]()
+  [Here is a link for a walkthrough video on how to install and use the app](https://drive.google.com/file/d/1ffdUyJYxmAe_JPZzNPvJNwH-3TORUZio/view?usp=sharing)
   
   
   ## Usage 
