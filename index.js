@@ -58,8 +58,8 @@ const questions = [
 // function to initialize program
 function init() {
     inquirer.prompt(questions)
-        .then((response) => writeFileAsync('README.md', generateMarkdown(response)))
-        .then(() => console.log('README was successfully created to README.md'))
+        .then((response) => writeFileAsync(`${response.name}_README.md`, generateMarkdown(response)))
+        .then(() => console.log('README was successfully created to projectTitle_README.md'))
         .catch((err) => console.error(err));
 }
 
